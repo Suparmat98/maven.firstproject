@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maven.firstproject.gui.controllers.CardController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="200.0" style="-fx-background-image: url(&quot;/maven/firstproject/images/card/cardface.png&quot;); -fx-background-size: stretch, auto;">
+         <children>
+            <Text fx:id="description" layoutX="25.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the default text. This should be replaced!" wrappingWidth="150.0" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

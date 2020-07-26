@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="maven.firstproject.gui.controllers.GenericController">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: black;">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#PressedDone" prefWidth="200.0" style="-fx-background-color: orange; -fx-background-radius: 4; -fx-cursor: hand;" text="Done" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

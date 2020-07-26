@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maven.firstproject.gui.events.GameController">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1080.0" style="-fx-background-image: url(&quot;/maven/firstproject/images/playground.jpg&quot;); -fx-background-size: cover, auto;">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#print" prefWidth="200.0" style="-fx-background-color: orange; -fx-background-radius: 4; -fx-cursor: hand;" text="Concede" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+            <Pane fx:id="battlefield" layoutX="14.0" layoutY="14.0" prefHeight="694.0" prefWidth="1050.0" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

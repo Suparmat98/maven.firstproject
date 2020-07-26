@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS cost(
+id int NOT NULL AUTO_INCREMENT,
+tmpname varchar(255),
+PRIMARY KEY(id)
+);

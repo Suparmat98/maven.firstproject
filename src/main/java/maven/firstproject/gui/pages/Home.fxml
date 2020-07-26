@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maven.firstproject.gui.controllers.HomeController">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1080.0" style="-fx-background-image: url(&quot;/maven/firstproject/images/wallpaper.jpg&quot;); -fx-background-size: cover, auto;">
+         <children>
+            <Button layoutX="429.0" layoutY="306.0" mnemonicParsing="false" onAction="#PressedPlay" prefWidth="200.0" style="-fx-background-color: orange; -fx-background-radius: 4; -fx-cursor: hand;" text="Play" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="429.0" layoutY="371.0" mnemonicParsing="false" onAction="#PressedEditDecks" prefWidth="200.0" style="-fx-background-color: orange; -fx-background-radius: 4; -fx-cursor: hand;" text="Edit deck" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+            <Button layoutX="429.0" layoutY="435.0" mnemonicParsing="false" onAction="#PressedExit" prefWidth="200.0" style="-fx-background-color: orange; -fx-background-radius: 4; -fx-cursor: hand;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</StackPane>
